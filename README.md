@@ -1,4 +1,4 @@
-# Aidon HAN to RS485 Adapter (v2)
+# Aidon HAN to RS485 Adapter
 
 A small PCB that reads data from the Aidon electricity meter's HAN port and converts it to an RS485 bus, enabling integration with home automation systems, data loggers, and industrial equipment.
 
@@ -52,11 +52,11 @@ Aidon meter
 
 ### J3 — RS485 Output
 
-| Pin | Signal |
-|-----|--------|
-| 1   | A (+)  |
-| 2   | B (–)  |
-| 3   | GND    |
+| Pin | Signal | Board silkscreen (top→bottom) |
+|-----|--------|-------------------------------|
+| 1   | GND    | GND (bottom)                  |
+| 2   | A (+)  | A (middle)                    |
+| 3   | B (–)  | B (top)                       |
 
 ---
 
