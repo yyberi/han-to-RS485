@@ -98,9 +98,8 @@ Gerber files, drill files, and pick-and-place position files are in the `AidonTo
 
 The Aidon meter outputs **DLMS/COSEM** P1 telegrams (similar to DSMR P1). Data is sent as UART at **115200 baud, 8N1** (8 data bits, no parity, 1 stop bit).
 
-Libraries for parsing Aidon P1 data:
-- [han-passthrough](https://github.com/turbokongen/hass-AMS) — Home Assistant integration
-- [aidon-han-parser](https://github.com/roarfred/AmsToMqttBridge) — AMS to MQTT bridge
+Library for parsing Aidon data:
+- [aidon-comm](https://github.com/yyberi/aidon-comm) - HAN serial data to MQTT
 
 ---
 
